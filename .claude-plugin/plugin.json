@@ -1,0 +1,22 @@
+{
+  "name": "interplug",
+  "version": "0.1.0",
+  "description": "Plugin development toolkit — lifecycle management, structure validation, and troubleshooting for Claude Code plugins",
+  "author": {
+    "name": "MK",
+    "email": "mistakeknot@vibeguider.org"
+  },
+  "repository": "https://github.com/mistakeknot/interplug",
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "validation",
+    "troubleshooting",
+    "claude-code"
+  ],
+  "skills": [
+    "./skills/create",
+    "./skills/validate",
+    "./skills/troubleshoot"
+  ]
+}
