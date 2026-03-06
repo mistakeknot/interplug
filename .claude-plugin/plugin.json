@@ -15,7 +15,7 @@
     "claude-code"
   ],
   "skills": [
-    "./skills/create",
+    "./skills/plugin",
     "./skills/validate",
     "./skills/troubleshoot"
   ]
