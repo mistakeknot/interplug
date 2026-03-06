@@ -1,6 +1,6 @@
 {
   "name": "interplug",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Plugin development toolkit — lifecycle management, structure validation, and troubleshooting for Claude Code plugins",
   "author": {
     "name": "MK",
