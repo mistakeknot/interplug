@@ -107,6 +107,6 @@ find . -name "*.sh" ! -perm -u+x
 
 ## Reference
 
-For detailed component formats, see `/interplug:create` references:
+For detailed component formats, see `/interplug:plugin` references:
 - `references/plugin-structure.md` — directory layout and syntax
 - `references/polyglot-hooks.md` — cross-platform hooks

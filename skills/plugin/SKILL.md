@@ -1,6 +1,6 @@
 ---
-name: create
-description: Use when creating a new Claude Code plugin from scratch, adding components to an existing plugin, setting up a development marketplace for testing, or releasing a plugin (versioning, tagging, marketplace distribution).
+name: plugin
+description: Full plugin lifecycle — create, structure, test, and release Claude Code plugins. For skill/command authoring specifically, use /interskill:skill. For official plugin structure reference, use /plugin-dev:plugin-structure.
 ---
 
 # Creating Claude Code Plugins
@@ -59,7 +59,7 @@ Before writing code:
 ### Phase 3: Add Components
 
 For each component type, see `references/plugin-structure.md`:
-- **Skills** — `skills/skill-name/SKILL.md` (use `/interskill:create` for authoring)
+- **Skills** — `skills/skill-name/SKILL.md` (use `/interskill:skill` for authoring)
 - **Commands** — `commands/command-name.md`
 - **Hooks** — `hooks/hooks.json` (use `references/polyglot-hooks.md` for cross-platform)
 - **MCP servers** — in plugin.json `mcpServers` section

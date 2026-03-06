@@ -80,7 +80,7 @@ interplug/
 
 ## How It Works
 
-### `/interplug:create`
+### `/interplug:plugin`
 Full plugin lifecycle workflow — plan structure, create directories, add components (skills, hooks, commands, MCP servers), configure plugin.json, test, and release.
 
 ### `/interplug:validate`

@@ -6,7 +6,7 @@ Plugin development toolkit — lifecycle management, structure validation, and t
 
 | Skill | What it does |
 |-------|-------------|
-| `create` | Full plugin lifecycle — plan, create structure, add components, test, release |
+| `plugin` | Full plugin lifecycle — plan, create structure, add components, test, release |
 | `validate` | Structural validation — checks plugin.json, paths, hooks, permissions |
 | `troubleshoot` | Debug guide — plugin not loading, skill not triggering, hooks not firing |
 
