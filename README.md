@@ -27,7 +27,7 @@ Then install the plugin:
 Create a new plugin:
 
 ```
-/interplug:plugin
+/interplug:create-plugin
 ```
 
 Validate plugin structure:

@@ -1,5 +1,5 @@
 ---
-name: plugin
+name: create-plugin
 description: Full plugin lifecycle — create, structure, test, and release Claude Code plugins. For skill/command authoring specifically, use /interskill:skill. For official plugin structure reference, use /plugin-dev:plugin-structure.
 ---
 
