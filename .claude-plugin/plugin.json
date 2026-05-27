@@ -1,7 +1,7 @@
 {
   "name": "interplug",
   "version": "0.1.5",
-  "description": "Plugin development toolkit — lifecycle management, structure validation, and troubleshooting for Claude Code plugins",
+  "description": "Plugin development toolkit \u2014 lifecycle management, structure validation, and troubleshooting for Claude Code plugins",
   "author": {
     "name": "MK",
     "email": "mistakeknot@vibeguider.org"
@@ -18,5 +18,8 @@
     "./skills/plugin",
     "./skills/validate",
     "./skills/troubleshoot"
+  ],
+  "peerDependencies": [
+    "interskill"
   ]
 }
