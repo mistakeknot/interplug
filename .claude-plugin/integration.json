@@ -1,0 +1,9 @@
+{
+  "name": "interplug",
+  "companions": {
+    "recommended": [
+      "interskill"
+    ],
+    "optional": []
+  }
+}
