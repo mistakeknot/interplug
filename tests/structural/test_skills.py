@@ -17,14 +17,14 @@ SKILL_DIRS = sorted(
 def test_skill_count(skills_dir):
     """Total skill count matches expected value."""
     if not skills_dir.is_dir():
-        assert 3 == 0
+        assert 7 == 0
         return
     dirs = sorted(
         d for d in skills_dir.iterdir()
         if d.is_dir() and (d / "SKILL.md").exists()
     )
-    assert len(dirs) == 3, (
-        f"Expected 3 skills, found {len(dirs)}: {[d.name for d in dirs]}"
+    assert len(dirs) == 7, (
+        f"Expected 7 skills, found {len(dirs)}: {[d.name for d in dirs]}"
     )
 
 
